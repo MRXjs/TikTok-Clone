@@ -1,0 +1,21 @@
+{
+  "name": "tiktok-backend",
+  "version": "1.0.0",
+  "description": "hey this is my tiktok clone backend",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "6.x"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "MRXjs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  }
+}
